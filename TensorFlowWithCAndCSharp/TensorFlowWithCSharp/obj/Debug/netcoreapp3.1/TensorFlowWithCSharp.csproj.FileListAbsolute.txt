@@ -1,0 +1,4 @@
+C:\Projetos\ECG-processing-C\TensorFlowWithCAndCSharp\TensorFlowWithCSharp\bin\Debug\netcoreapp3.1\TensorFlowWithCSharp.exe
+C:\Projetos\ECG-processing-C\TensorFlowWithCAndCSharp\TensorFlowWithCSharp\obj\Debug\netcoreapp3.1\TensorFlowWithCSharp.csprojAssemblyReference.cache
+C:\Projetos\ECG-processing-C\TensorFlowWithCAndCSharp\TensorFlowWithCSharp\obj\Debug\netcoreapp3.1\TensorFlowWithCSharp.AssemblyInfoInputs.cache
+C:\Projetos\ECG-processing-C\TensorFlowWithCAndCSharp\TensorFlowWithCSharp\obj\Debug\netcoreapp3.1\TensorFlowWithCSharp.AssemblyInfo.cs

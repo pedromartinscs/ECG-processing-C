@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SciSharp.TensorFlow.Redist/1.15.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/SciSharp.TensorFlow.Redist.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libtensorflow.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtensorflow_framework.so.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libtensorflow.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libtensorflow_framework.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/tensorflow.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SciSharp.TensorFlow.Redist/1.15.0": {
+      "sha512": "r4LgiqA8DHVdZ7uYrzH3A+Nci7VekqUHGdVW2/Saf5rnhDBdBw+Yey8qOLXCEjnwLpfoihiwXKgDN0GJ+EkJxA==",
+      "type": "package",
+      "path": "scisharp.tensorflow.redist/1.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD_PARTY_NOTICES.txt",
+        "build/netstandard2.0/SciSharp.TensorFlow.Redist.props",
+        "runtimes/linux-x64/native/libtensorflow.so",
+        "runtimes/linux-x64/native/libtensorflow_framework.so.1",
+        "runtimes/osx-x64/native/libtensorflow.dylib",
+        "runtimes/osx-x64/native/libtensorflow_framework.1.dylib",
+        "runtimes/win-x64/native/tensorflow.dll",
+        "scisharp.tensorflow.redist.1.15.0.nupkg.sha512",
+        "scisharp.tensorflow.redist.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SciSharp.TensorFlow.Redist >= 1.15.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pedro.martins\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\ECG-processing-C\\TensorFlowWithCAndCSharp\\TensorFlowWithCSharp\\TensorFlowWithCSharp.csproj",
+      "projectName": "TensorFlowWithCSharp",
+      "projectPath": "C:\\Projetos\\ECG-processing-C\\TensorFlowWithCAndCSharp\\TensorFlowWithCSharp\\TensorFlowWithCSharp.csproj",
+      "packagesPath": "C:\\Users\\pedro.martins\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\ECG-processing-C\\TensorFlowWithCAndCSharp\\TensorFlowWithCSharp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pedro.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "SciSharp.TensorFlow.Redist": {
+            "target": "Package",
+            "version": "[1.15.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
